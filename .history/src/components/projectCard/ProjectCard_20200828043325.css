@@ -1,0 +1,9 @@
+.projectCard{
+    width: 370px;
+}
+
+.projectCard >img{
+    width: 370px;
+    object-fit: cover;
+
+}

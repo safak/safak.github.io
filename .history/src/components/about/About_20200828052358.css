@@ -1,0 +1,11 @@
+.about {
+  height: 100vh;
+  background:linear-gradient(
+    rgba(168, 109, 109, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ), url("https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

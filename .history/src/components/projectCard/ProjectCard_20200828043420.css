@@ -1,0 +1,10 @@
+.projectCard{
+    width: 350;
+    padding: 10px;
+}
+
+.projectCard >img{
+    width: 370px;
+    object-fit: cover;
+
+}

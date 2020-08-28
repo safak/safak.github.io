@@ -1,0 +1,40 @@
+.projectCard {
+  width: 350px;
+  padding: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.projectCard:hover {
+  transform: scale(1.02);
+  background-color: rgb(247, 245, 245);
+  border-radius: 20px;
+}
+
+.projectCard > img {
+  border-radius: 20px;
+  width: 350px;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.projectCard > p {
+  height: 60px;
+  color: rgb(80, 78, 78);
+  margin-top: 10px;
+}
+
+.technologies {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technologies > span {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid thin lightgray;
+  border-radius: 5px;
+}

@@ -1,0 +1,15 @@
+.menu {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.menuList {
+  list-style: none;
+}
+
+.menuListItem{
+    padding: 10px;
+}

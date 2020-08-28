@@ -1,0 +1,33 @@
+.about {
+  height: 100vh;
+  background: url("https://images.pexels.com/photos/4286956/pexels-photo-4286956.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+  background-position: top 0 left 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+}
+
+.aboutInfo{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutInfo >h1{
+    font-size: 7vw;
+    margin-left: auto;
+}
+
+.aboutInfo >p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.aboutInfo > .MuiSvgIcon-root {
+    font-size: 60px;
+    margin-left: 50%;
+}
+

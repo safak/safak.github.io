@@ -1,0 +1,28 @@
+.projectCard {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.projectCard > img {
+  border-radius: 20px;
+  width: 370px;
+  object-fit: cover;
+}
+
+.projectCard > p {
+  color: rgb(80, 78, 78);
+  margin-top: 10px;
+}
+
+.technologies {
+  margin-top: 20px;
+}
+
+.technologies > span {
+  margin-right: 10px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+}

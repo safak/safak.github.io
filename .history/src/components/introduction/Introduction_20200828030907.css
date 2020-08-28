@@ -1,0 +1,11 @@
+.introduction {
+  height: 100vh;
+  display: flex;
+}
+
+.introduction > h1 {
+  color: white; /* Fallback: assume this color ON TOP of image */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}

@@ -1,0 +1,27 @@
+.menu {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.deactive{
+    display: none;
+}
+
+.menuList {
+  list-style: none;
+}
+
+.menuListItem{
+    padding: 10px;
+    cursor: pointer;
+    transition: 100ms ease-in;
+}
+
+.menuListItem:hover{
+    transform: scale(1.1);
+    color: gray;
+}

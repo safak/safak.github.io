@@ -1,0 +1,21 @@
+.projectCard {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.projectCard > img {
+  border-radius: 20px;
+  width: 370px;
+  object-fit: cover;
+}
+
+.projectCard > p {
+  color: rgb(80, 78, 78);
+  margin-top: 10px;
+}
+
+.technologies > span{
+    margin-top: 20px;
+    padding: 5px;
+}

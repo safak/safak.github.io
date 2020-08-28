@@ -1,0 +1,8 @@
+.introduction {
+  height: 100vh;
+  display: flex;
+}
+
+.introduction > h1 {
+  background: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}

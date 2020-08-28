@@ -1,0 +1,9 @@
+.header{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.header > .MuiSvgIcon-root{
+    font-size: 50px;
+}

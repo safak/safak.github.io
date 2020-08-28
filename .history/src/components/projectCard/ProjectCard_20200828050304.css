@@ -1,0 +1,32 @@
+.projectCard {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.projectCard > img {
+  border-radius: 20px;
+  width: 370px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.projectCard > p {
+  color: rgb(80, 78, 78);
+  margin-top: 10px;
+}
+
+.technologies {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technologies > span {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border:   solid thin lightgray;
+  border-radius: 5px;
+}

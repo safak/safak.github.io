@@ -1,0 +1,7 @@
+.about {
+  height: 100vh;
+}
+
+.about >img{
+    width: 50vw;
+}
