@@ -9,12 +9,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .about {
-    background: white;
-    display: flex;
+    /* For mobile phones: */
+    about {
+      background-color: white;
+      display: block;
+    }
   }
-}
 
 .aboutInfo {
   width: 500px;
