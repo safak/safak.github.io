@@ -1,0 +1,40 @@
+.menu {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 300;
+  transform: translateX(0);
+  transition: 500ms ease-in;
+}
+
+.deactive {
+  display: none;
+  transform: translateX(100%);
+}
+
+.menu > img {
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
+  opacity: 0.4;
+}
+
+.menuList {
+  list-style: none;
+  z-index: 100;
+}
+
+.menuListItem {
+  padding: 10px;
+  cursor: pointer;
+  transition: 150ms ease-in;
+}
+
+.menuListItem:hover {
+  transform: scale(1.1);
+  color: gray;
+}
