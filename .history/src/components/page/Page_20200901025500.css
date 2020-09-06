@@ -1,0 +1,88 @@
+.page {
+  display: flex;
+  padding: 20px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.appFeature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+}
+
+.pageVideo {
+  margin-right: 20px;
+}
+
+.technologies {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technologies > span {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid thin lightgray;
+  border-radius: 5px;
+}
+
+.appInfo > h1 {
+  width: 500px;
+  margin-top: 100px;
+  margin-left: auto;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+}
+
+.appInfo > p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.appImages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.appImages > img {
+  margin-top: 10px;
+  width: 215px;
+  object-fit: contain;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* For mobile phones: */
+  .page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .pageVideo {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .appInfo > h1 {
+    width: 500px;
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+  }
+
+  .appImages > img {
+      flex: 1;
+  }
+}

@@ -1,0 +1,10 @@
+.app{
+    overflow-x: hidden;
+}
+
+.appMenuIcon{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 30px !important;
+}

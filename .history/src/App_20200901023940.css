@@ -1,0 +1,8 @@
+.app{
+    overflow-x: hidden;
+}
+
+.appMenuIcon{
+    position: absolute;
+    right: 0;
+}
