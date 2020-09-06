@@ -140,7 +140,7 @@ const Portfolio = () => {
         style={{ color: "inherit", textDecoration: "inherit" }}
       >
         <ProjectCard
-          img={require("../../assets/projectcover/airbnb.jpg")}
+          img={require("../../assets/projectcover/aitbnb.jpg")}
           title="React Airbnb Clone"
           desc="Nonfunctional Airbnb ui clone with React.js"
           tech={["React.js", "Html", "Css"]}
