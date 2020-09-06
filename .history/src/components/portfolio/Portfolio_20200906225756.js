@@ -55,7 +55,7 @@ const Portfolio = () => {
         style={{ color: "inherit", textDecoration: "inherit" }}
       >
         <ProjectCard
-          img={require("../../assets/shop/shop4.png")}
+          img={require("../../assets/shop/shop1.png")}
           title="React Shopping App"
           desc="Online shopping application with React.js, Google firebase database, Redux state manager and Stripe payment method."
           tech={[
@@ -95,7 +95,7 @@ const Portfolio = () => {
         style={{ color: "inherit", textDecoration: "inherit" }}
       >
         <ProjectCard
-          img="https://cdn.vox-cdn.com/thumbor/vs84cJS7MxJ110H83QfVii6yBgU=/52x327:1453x1169/1200x800/filters:focal(636x207:876x447)/cdn.vox-cdn.com/uploads/chorus_image/image/64731424/Light_Mode_Home_1500x1500_Eng_JV.png.img.fullhd.medium.0.png"
+          img={require("../../assets/twitter/twitter1.png")}
           title="React Twitter Clone"
           desc="Twitter social media application with React.js and Google firebase firestore database."
           tech={["React.js", "Context Api", "Google Firebase", "Html", "Css"]}
@@ -107,7 +107,7 @@ const Portfolio = () => {
         style={{ color: "inherit", textDecoration: "inherit" }}
       >
         <ProjectCard
-          img="https://a.slack-edge.com/a084c/marketing/img/downloads/screenshots/windows/windows-hero-desktop.png"
+          img={require("../../assets/slack/slack1.png")}
           title="React Slack Clone"
           desc="Slack instant messaging application with React.js and Google firebase firestore database."
           tech={["React.js", "Context Api", "Google Firebase", "Html", "Css"]}

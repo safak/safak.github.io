@@ -107,7 +107,7 @@ const Portfolio = () => {
         style={{ color: "inherit", textDecoration: "inherit" }}
       >
         <ProjectCard
-          img="https://a.slack-edge.com/a084c/marketing/img/downloads/screenshots/windows/windows-hero-desktop.png"
+          img={require("../../assets/slack/slack1.png")}
           title="React Slack Clone"
           desc="Slack instant messaging application with React.js and Google firebase firestore database."
           tech={["React.js", "Context Api", "Google Firebase", "Html", "Css"]}
