@@ -28,24 +28,6 @@ const Portfolio = () => {
         />
       </Link>
       <Link
-        to="/apps/blog"
-        style={{ color: "inherit", textDecoration: "inherit" }}
-      >
-        <ProjectCard
-          img={require("../../assets/projectcover/blog.jpg")}
-          title="Multiuser Blog Application"
-          desc="Mern blog application that users can share their stories and manage them."
-          tech={[
-            "Node.js",
-            "React.js",
-            "Express",
-            "MongoDB",
-            "Redux",
-            "Amazon S3",
-          ]}
-        />
-      </Link>
-      <Link
         to="/apps/netflix"
         style={{ color: "inherit", textDecoration: "inherit" }}
       >
@@ -140,6 +122,17 @@ const Portfolio = () => {
         title="Instant Chat App"
         desc="Soon"
         tech={["React.js", "Socket.io", "Node,js", "Express", "MongoDb", "Css"]}
+      />
+      {/* </Link> */}
+      {/* <Link
+        to="/apps/blog"
+        style={{ color: "inherit", textDecoration: "inherit" }}
+      > */}
+      <ProjectCard
+        img={require("../../assets/projectcover/blog.jpg")}
+        title="Multiuser Blog Application"
+        desc="Mern blog application that users can share their stories and manage them."
+        tech={["Node.js", "React.js", "Express", "MongoDB", "Redux", "Amazon S3"]}
       />
       {/* </Link> */}
       <Link

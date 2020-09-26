@@ -33,7 +33,7 @@ const Portfolio = () => {
       >
         <ProjectCard
           img={require("../../assets/projectcover/blog.jpg")}
-          title="Multiuser Blog Application"
+          title="Blog Application"
           desc="Mern blog application that users can share their stories and manage them."
           tech={[
             "Node.js",

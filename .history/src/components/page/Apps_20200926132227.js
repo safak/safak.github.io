@@ -134,7 +134,7 @@ export const Apps = [
     desc:
       "Mern blog application with JWT authentication, functional react components, effective hook functions and redux, clean and responsive design.",
     github: "https://github.com/safak/Mern-Blog",
-    video: "https://player.vimeo.com/video/462114927",
+    video: "https://vimeo.com/462114927",
     color: "#eddade",
     images: ["blog/blog1.png", "blog/blog2.png", "blog/blog3.png"],
     tech: [
