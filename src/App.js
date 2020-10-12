@@ -7,9 +7,10 @@ import Portfolio from "./components/portfolio/Portfolio";
 import About from "./components/about/About";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Page from "./components/page/Page";
 import { Home } from "@material-ui/icons";
+import Page3 from "./components/page/Page3";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -54,8 +55,9 @@ function App() {
               />
             </div>
             <div ref={PortfolioRef}>
-              <Portfolio />
+              <Portfolio web={true} />
             </div>
+            <Portfolio mobile />
             <div ref={AboutRef}>
               <About />
             </div>
@@ -68,7 +70,7 @@ function App() {
               >
                 <Home className="appMenuIcon" />
               </Link>
-              <Page />
+              <Page3 />
             </>
           </Route>
         </Switch>

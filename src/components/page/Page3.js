@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
-import "./Page.css";
+import "./Page3.css";
 import { useLocation } from "react-router-dom";
 import { pageWebData } from "../../data";
 import { Cancel } from "@material-ui/icons";
+import { PlayCircleFilledOutlined } from "@material-ui/icons";
 
-const Page = () => {
+const Page3 = () => {
   const [info, setInfo] = useState();
+  const [play, setPlay] = useState(false);
   const [bigImg, setBigImg] = useState();
   const location = useLocation();
   const appName = location.pathname.split("/")[2];
@@ -13,6 +15,8 @@ const Page = () => {
   useEffect(() => {
     pageWebData.map((a) => a.name === appName && setInfo(a));
   }, [appName]);
+
+  console.log(info);
 
   return (
     <>
@@ -22,16 +26,31 @@ const Page = () => {
           style={{ backgroundColor: `${info?.color}` }}
         ></div>
         <div className="appFeature">
-          <iframe
-            title="react app"
-            className="pageVideo"
-            src={info?.video}
-            width="500"
-            height="315"
-            frameborder="0"
-            allow="autoplay; fullscreen"
-            allowfullscreen
-          ></iframe>
+          {play ? (
+            <iframe
+              title="react app"
+              className="pageVideo"
+              src={`${info?.video}?autoplay=1`}
+              width="500"
+              height="315"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
+          ) : (
+            info?.img && (
+              <>
+                <img
+                  src={require(`../../assets/${info.img}`)}
+                  className="pageInfoImg"
+                  alt=""
+                  onClick={() => setPlay(true)}
+                />
+                <PlayCircleFilledOutlined className="playButton" onClick={() => setPlay(true)}/>
+              </>
+            )
+          )}
+
           <div className="technologies">
             {info?.tech?.map((i) => (
               <span>{i}</span>
@@ -74,4 +93,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Page3;

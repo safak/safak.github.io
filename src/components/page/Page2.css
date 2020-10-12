@@ -1,0 +1,77 @@
+.page {
+  display: flex;
+}
+
+.coloredArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  z-index: 2;
+}
+
+.pagelLeft {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+  left: 0;
+  width: 40vw;
+  height: calc(100vh - 10px);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://www.lifewire.com/thmb/_C_hoUVvB5hZCIzSHH9XFRNPfDQ=/2740x1596/filters:no_upscale():max_bytes(150000):strip_icc()/001_tutorial-how-facebook-works-2654610-5c36495046e0fb0001ff7ce5.jpg");
+  background-size: cover;
+}
+
+.playButton {
+  opacity: 0.7;
+  font-size: 100px !important;
+  cursor: pointer;
+}
+
+.playButton:hover {
+  color: red;
+}
+
+.pagelRight {
+  position: absolute;
+  width: calc(58vw - 40px);
+  top: 10px;
+  right: 0;
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.pageTitle {
+}
+
+.pagelRight > p {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.pageImages {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pageImage {
+  width: 225px;
+  height: 140px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}

@@ -9,6 +9,7 @@ export const Apps = [
       "node.js express and mongoDb and lastly React.js client-server with redux. <br/><br/>",
     video: "https://player.vimeo.com/video/455287792",
     color: "#5890ff",
+    img: "social/social1.png",
     images: ["social/social1.png", "social/social2.png", "social/social3.png"],
     tech: [
       "Java Spring Boot",
