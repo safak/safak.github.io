@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.496880e8.chunk.css",
-    "main.js": "/static/js/main.4090dd69.chunk.js",
-    "main.js.map": "/static/js/main.4090dd69.chunk.js.map",
+    "main.css": "/static/css/main.0f2346b4.chunk.css",
+    "main.js": "/static/js/main.5970c93c.chunk.js",
+    "main.js.map": "/static/js/main.5970c93c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
-    "static/js/2.df70e4ec.chunk.js": "/static/js/2.df70e4ec.chunk.js",
-    "static/js/2.df70e4ec.chunk.js.map": "/static/js/2.df70e4ec.chunk.js.map",
+    "static/js/2.7980afcf.chunk.js": "/static/js/2.7980afcf.chunk.js",
+    "static/js/2.7980afcf.chunk.js.map": "/static/js/2.7980afcf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.af33a922b550031586a4cfbf5206d6da.js": "/precache-manifest.af33a922b550031586a4cfbf5206d6da.js",
+    "precache-manifest.142a0d4e3ff0cfef73fd8281779f7350.js": "/precache-manifest.142a0d4e3ff0cfef73fd8281779f7350.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.496880e8.chunk.css.map": "/static/css/main.496880e8.chunk.css.map",
-    "static/js/2.df70e4ec.chunk.js.LICENSE.txt": "/static/js/2.df70e4ec.chunk.js.LICENSE.txt",
+    "static/css/main.0f2346b4.chunk.css.map": "/static/css/main.0f2346b4.chunk.css.map",
+    "static/js/2.7980afcf.chunk.js.LICENSE.txt": "/static/js/2.7980afcf.chunk.js.LICENSE.txt",
     "static/media/airbnb.jpg": "/static/media/airbnb.76bf3132.jpg",
     "static/media/blog.jpg": "/static/media/blog.c35ea7c4.jpg",
     "static/media/blog1.png": "/static/media/blog1.98f0cb6b.png",
@@ -31,6 +31,10 @@
     "static/media/netflix1.png": "/static/media/netflix1.7f30cbd1.png",
     "static/media/netflix2.png": "/static/media/netflix2.aaab830f.png",
     "static/media/netflix3.png": "/static/media/netflix3.cc681ce8.png",
+    "static/media/react-native-facebook.jpeg": "/static/media/react-native-facebook.e4aabf69.jpeg",
+    "static/media/react-native-instagram.webp": "/static/media/react-native-instagram.a04973d1.webp",
+    "static/media/react-native-netflix.jpg": "/static/media/react-native-netflix.b9ccf6d4.jpg",
+    "static/media/react-native-twitter.jpg": "/static/media/react-native-twitter.e69ae770.jpg",
     "static/media/shop1.png": "/static/media/shop1.db68eef0.png",
     "static/media/shop2.png": "/static/media/shop2.fff51bc9.png",
     "static/media/shop3.png": "/static/media/shop3.8de9e2ba.png",
@@ -52,8 +56,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.df70e4ec.chunk.js",
-    "static/css/main.496880e8.chunk.css",
-    "static/js/main.4090dd69.chunk.js"
+    "static/js/2.7980afcf.chunk.js",
+    "static/css/main.0f2346b4.chunk.css",
+    "static/js/main.5970c93c.chunk.js"
   ]
 }

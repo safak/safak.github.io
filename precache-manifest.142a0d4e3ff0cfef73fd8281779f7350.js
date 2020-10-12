@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f38c7072cbddcbf107db5297559ac92",
+    "revision": "2ae93f289b9e48c266993d03a23f27e8",
     "url": "/index.html"
   },
   {
-    "revision": "9e8f7c7cbaf684a44058",
+    "revision": "87d8c6b1d6202972750b",
     "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "fb7a147d5792d71dee5e",
-    "url": "/static/css/main.496880e8.chunk.css"
+    "revision": "8cd2c40847c75373e47e",
+    "url": "/static/css/main.0f2346b4.chunk.css"
   },
   {
-    "revision": "9e8f7c7cbaf684a44058",
-    "url": "/static/js/2.df70e4ec.chunk.js"
+    "revision": "87d8c6b1d6202972750b",
+    "url": "/static/js/2.7980afcf.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.df70e4ec.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7980afcf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb7a147d5792d71dee5e",
-    "url": "/static/js/main.4090dd69.chunk.js"
+    "revision": "8cd2c40847c75373e47e",
+    "url": "/static/js/main.5970c93c.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -94,6 +94,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cc681ce86a9c83aba58196434918c07e",
     "url": "/static/media/netflix3.cc681ce8.png"
+  },
+  {
+    "revision": "e4aabf69fdd8a2873eb30b3133901881",
+    "url": "/static/media/react-native-facebook.e4aabf69.jpeg"
+  },
+  {
+    "revision": "a04973d139a4f498966051a65bdbe062",
+    "url": "/static/media/react-native-instagram.a04973d1.webp"
+  },
+  {
+    "revision": "b9ccf6d4c70326fe10e607fbc1313fa9",
+    "url": "/static/media/react-native-netflix.b9ccf6d4.jpg"
+  },
+  {
+    "revision": "e69ae7707c90ac6bb74b38031592f059",
+    "url": "/static/media/react-native-twitter.e69ae770.jpg"
   },
   {
     "revision": "db68eef07352ff502c85c97e971f945d",
