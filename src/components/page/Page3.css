@@ -36,8 +36,8 @@
   cursor: pointer;
 }
 
-.playButton:hover{
-    
+.playButton:hover {
+  color: "red";
 }
 
 .pageVideo {
@@ -83,6 +83,7 @@
 .appImages > img {
   margin-top: 10px;
   width: 200px;
+  height: 100px;
   object-fit: contain;
   padding: 10px;
   cursor: pointer;

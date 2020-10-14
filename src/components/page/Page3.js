@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Page3.css";
 import { useLocation } from "react-router-dom";
-import { pageWebData } from "../../data";
+import { pageWebData, pageMobileData } from "../../data";
 import { Cancel } from "@material-ui/icons";
 import { PlayCircleFilledOutlined } from "@material-ui/icons";
 
@@ -14,9 +14,8 @@ const Page3 = () => {
 
   useEffect(() => {
     pageWebData.map((a) => a.name === appName && setInfo(a));
+    pageMobileData.map((a) => a.name === appName && setInfo(a));
   }, [appName]);
-
-  console.log(info);
 
   return (
     <>

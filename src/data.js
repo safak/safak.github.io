@@ -100,10 +100,10 @@ export const cardWebData = [
   },
   {
     id: 11,
-    link: "/apps/airbnb",
+    link: null,
     img: "projectcover/airbnb.jpg",
     title: "React Airbnb Clone",
-    desc: "Nonfunctional Airbnb ui clone with React.js",
+    desc: "Soon",
     tech: ["React.js", "Html", "Css"],
   },
 ];
@@ -156,7 +156,7 @@ export const pageWebData = [
       "node.js express and mongoDb and lastly React.js client-server with redux. <br/><br/>",
     video: "https://player.vimeo.com/video/455287792",
     color: "#5890ff",
-    img: "social/social1.png",
+    img: "social/social-cover.png",
     images: ["social/social1.png", "social/social2.png", "social/social3.png"],
     tech: [
       "Java Spring Boot",
@@ -202,7 +202,7 @@ export const pageWebData = [
     github: "https://github.com/safak/React-Twitter-Clone",
     video: "https://player.vimeo.com/video/455100271",
     color: "#50b7f5",
-    img: "twitter/twitter1.png",
+    img: "projectcover/twitter.jpeg",
     images: ["twitter/twitter1.png"],
     tech: ["React.js", "Google Firebase", "Html", "Css"],
   },
@@ -215,8 +215,8 @@ export const pageWebData = [
     github: "https://github.com/safak/React-Google-Clone",
     video: "https://player.vimeo.com/video/455102974",
     color: "#4285f4",
-    img: "google/google1.png",
-    images: ["google/google1.png"],
+    img: "projectcover/google.jpg",
+    images: ["google/google1.png", "google/google2.png"],
     tech: ["React.js", "Google API", "Html", "Css"],
   },
   {
@@ -229,7 +229,7 @@ export const pageWebData = [
     video: "https://player.vimeo.com/video/455104210",
     color: "#1ce783",
     img: "hulu/hulu1.png",
-    images: ["hulu/hulu1.png"],
+    images: ["hulu/hulu1.png", "hulu/hulu2.png"],
     tech: ["React.js", "The Movie API", "Html", "Css"],
   },
   {
@@ -241,7 +241,7 @@ export const pageWebData = [
     github: "https://github.com/safak/react-netflix",
     video: "https://player.vimeo.com/video/455108158",
     color: "#e50914",
-    img: "netflix/netflix1.png",
+    img: "netflix/netflix2.png",
     images: [
       "netflix/netflix1.png",
       "netflix/netflix2.png",
@@ -258,7 +258,7 @@ export const pageWebData = [
     github: "https://github.com/safak/react-shop",
     video: "https://player.vimeo.com/video/455109399",
     color: "#808282",
-    img: "shop/shop1.png",
+    img: "shop/shop-cover.png",
     images: ["shop/shop1.png", "shop/shop2.png", "shop/shop3.png"],
     tech: [
       "React.js",
@@ -279,7 +279,7 @@ export const pageWebData = [
     github: "https://github.com/safak/React-Slack-Clone",
     video: "https://player.vimeo.com/video/455114916",
     color: "#3f0f40",
-    img: "slack/slack1.png",
+    img: "projectcover/slack.png",
     images: ["slack/slack1.png"],
     tech: ["React.js", "Context Api", "Firebase", "Html", "Css"],
   },
@@ -291,7 +291,7 @@ export const pageWebData = [
     github: "https://github.com/safak/Mern-Blog",
     video: "https://player.vimeo.com/video/462114927",
     color: "#eddade",
-    img: "blog/blog1.png",
+    img: "blog/blog-cover.png",
     images: ["blog/blog1.png", "blog/blog2.png", "blog/blog3.png"],
     tech: [
       "Node.js",
@@ -306,34 +306,72 @@ export const pageWebData = [
   },
 ];
 
-export const pageMobilData = [
+export const pageMobileData = [
   {
     name: "react-native-facebook",
     title: "React Native Facebook UI Clone",
     desc:
-      "This advanced social media application has been built with 4 microservices. " +
-      "Spring boot restful back-end api for data prosessing, Socket server for instant " +
-      "messaging and notifications, Chat server for storage messenger datas which is using " +
-      "node.js express and mongoDb and lastly React.js client-server with redux. <br/><br/>",
-    video: "https://player.vimeo.com/video/455287792",
+      "Facebook social media application with dummy data and Redux implementation" +
+      "Functional react components, react native router v5, efficent hook fuctions",
+    video: "https://player.vimeo.com/video/467387861",
+    img: "native/facebook.png",
     color: "#5890ff",
-    images: ["social/social1.png", "social/social2.png", "social/social3.png"],
-    tech: [
-      "Java Spring Boot",
-      "React.js",
-      "Redux",
-      "Redux Saga",
-      "Node.js",
-      "MySql",
-      "MongoDb",
-      "Socket.io",
-      "Amazon S3",
-      "Spring Security",
-      "Google Map Api",
-      "Html",
-      "Css",
-      "Bootstrap",
-      "Saas",
+    github:"https://github.com/safak/React-Native-Facebook-Clone",
+    images: [
+      "native/react-native-facebook1.png",
+      "native/react-native-facebook2.png",
+      "native/react-native-facebook3.png",
     ],
+    tech: ["React native", "Redux", "Mobile design"],
+  },
+  {
+    name: "react-native-netflix",
+    title: "React Native Netflix UI Clone",
+    desc:
+      "Netflix movie UI application with dummy data" +
+      "Functional react components, react native router v5, efficent hook fuctions",
+    video: "https://player.vimeo.com/video/467398446",
+    img: "projectcover/netflix.png",
+    color: "#5890ff",
+    github:"https://github.com/safak/React-Native-Netflix-Clone",
+    images: [
+      "native/react-native-netflix1.png",
+      "native/react-native-netflix2.png",
+      "native/react-native-netflix3.png",
+    ],
+    tech: ["React native", "Mobile design"],
+  },
+  {
+    name: "react-native-twitter",
+    title: "React Native Twitter UI Clone",
+    desc:
+      "Twitter social media application UI applction with dummy data and Redux" +
+      "Functional react components, react native router v5, efficent hook fuctions",
+    video: "https://player.vimeo.com/video/467406077",
+    img: "projectcover/twitter.jpeg",
+    color: "#5890ff",
+    github:"https://github.com/safak/React-Native-Twitter-Clone",
+    images: [
+      "twitter/react-native-twitter1.png",
+      "twitter/react-native-twitter2.png",
+      "twitter/react-native-twitter3.png",
+    ],
+    tech: ["React native", "Redux", "Mobile design"],
+  },
+  {
+    name: "react-native-instagram",
+    title: "React Native Instagram UI Clone",
+    desc:
+      "Instagram social media application UI applction with dummy data" +
+      "Functional react components, react native router v5, efficent hook fuctions",
+    video: "https://player.vimeo.com/video/467413463",
+    img: "projectcover/react-native-instagram.webp",
+    github:"https://github.com/safak/Ract-Native-Instagram-Clone",
+    color: "#5890ff",
+    images: [
+      "instagram/react-native-instagram1.png",
+      "instagram/react-native-instagram2.png",
+    ],
+    tech: ["React native", "Mobile design"],
   },
 ];
