@@ -156,6 +156,7 @@ export const pageWebData = [
       "node.js express and mongoDb and lastly React.js client-server with redux. <br/><br/>",
     video: "https://player.vimeo.com/video/455287792",
     color: "#5890ff",
+    github: "https://github.com/safak/Social,
     img: "social/social-cover.png",
     images: ["social/social1.png", "social/social2.png", "social/social3.png"],
     tech: [
